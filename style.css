@@ -51,6 +51,7 @@ h3 { font-size: 1.15rem; }
     linear-gradient(180deg, var(--bg) 0%, #1e0f0c 100%);
   border-bottom: 2px solid var(--red-dark);
 }
+.hero__logo { width: clamp(150px, 30vw, 220px); height: auto; margin-bottom: 20px; filter: drop-shadow(0 8px 24px rgba(0,0,0,.5)); }
 .hero__tag { text-transform: uppercase; letter-spacing: .2em; color: var(--muted); font-size: .85rem; margin: 0 0 12px; }
 .hero h1 { font-size: clamp(2.6rem, 9vw, 5.2rem); font-weight: 800; margin: 0; text-shadow: 0 4px 24px rgba(0,0,0,.6); }
 .hero h1 span { color: var(--red); }

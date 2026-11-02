@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" role="img" aria-label="Donjons &amp; Darons">
+<defs>
+  <linearGradient id="dd-champ" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b3261e"/><stop offset="1" stop-color="#5e130e"/>
+  </linearGradient>
+  <linearGradient id="dd-or" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f3d27a"/><stop offset=".5" stop-color="#d6a84a"/><stop offset="1" stop-color="#8a6420"/>
+  </linearGradient>
+  <linearGradient id="dd-bois" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5a3420"/><stop offset=".35" stop-color="#9a6238"/><stop offset="1" stop-color="#5a3420"/>
+  </linearGradient>
+  <radialGradient id="dd-halo" cx=".5" cy=".38" r=".5">
+    <stop offset="0" stop-color="#ffb35c" stop-opacity=".45"/><stop offset="1" stop-color="#ffb35c" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<!-- ombre portée -->
+<path d="M64 78 L104 38 L144 70 L204 22 L264 70 L304 38 L344 78 V238 Q344 358 204 428 Q64 358 64 238 Z" fill="#000" opacity=".35"/>
+<!-- contour sombre -->
+<path d="M60 70 L100 30 L140 62 L200 14 L260 62 L300 30 L340 70 V230 Q340 350 200 420 Q60 350 60 230 Z" fill="#1a0f0a"/>
+<!-- bordure or -->
+<path d="M72 76 L101 47 L140 77 L200 30 L260 77 L299 47 L328 76 V230 Q328 342 200 406 Q72 342 72 230 Z" fill="url(#dd-or)"/>
+<!-- champ rouge -->
+<path d="M82 82 L102 62 L140 90 L200 44 L260 90 L298 62 L318 82 V230 Q318 334 200 394 Q82 334 82 230 Z" fill="url(#dd-champ)"/>
+<!-- halo derrière la chope -->
+<ellipse cx="200" cy="170" rx="110" ry="100" fill="url(#dd-halo)"/>
+<!-- filet intérieur -->
+<path d="M98 96 L104 80 L140 104 L200 60 L260 104 L296 80 L302 96 V230 Q302 322 200 376 Q98 322 98 230 Z" fill="none" stroke="#f3d27a" stroke-opacity=".35" stroke-width="2"/>
+<!-- rivets -->
+<g fill="url(#dd-or)" stroke="#1a0f0a" stroke-width="2">
+  <circle cx="77" cy="140" r="5"/><circle cx="323" cy="140" r="5"/><circle cx="77" cy="220" r="5"/><circle cx="323" cy="220" r="5"/>
+  <circle cx="200" cy="38" r="5"/>
+</g>
+<!-- chope -->
+<g transform="translate(100 74) scale(1.05)">
+  <path d="M128 92 C174 92 174 150 128 150" fill="none" stroke="#1a0f0a" stroke-width="24" stroke-linecap="round"/>
+  <path d="M128 92 C174 92 174 150 128 150" fill="none" stroke="url(#dd-or)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M58 72 H132 L128 168 Q95 178 62 168 Z" fill="url(#dd-bois)" stroke="#1a0f0a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M77 74 L79 172 M95 74 V175 M113 74 L111 172" stroke="#3e2314" stroke-width="3"/>
+  <path d="M68 96 L70 146" stroke="#f3c48a" stroke-opacity=".35" stroke-width="5" stroke-linecap="round"/>
+  <path d="M57 88 H133" stroke="#1a0f0a" stroke-width="15"/><path d="M57 88 H133" stroke="#e0b458" stroke-width="9"/>
+  <path d="M60 152 Q95 160 130 152" stroke="#1a0f0a" stroke-width="15" fill="none"/><path d="M60 152 Q95 160 130 152" stroke="url(#dd-or)" stroke-width="9" fill="none"/>
+  <circle cx="70" cy="88" r="2.5" fill="#1a0f0a"/><circle cx="95" cy="88" r="2.5" fill="#1a0f0a"/><circle cx="120" cy="88" r="2.5" fill="#1a0f0a"/>
+  <g fill="#f8f0e0" stroke="#1a0f0a" stroke-width="4">
+    <circle cx="66" cy="66" r="14"/><circle cx="88" cy="56" r="19"/><circle cx="112" cy="59" r="16"/><circle cx="129" cy="70" r="11"/>
+    <path d="M60 72 Q57 94 64 99 Q71 94 68 76"/>
+    <path d="M118 74 Q120 86 125 88 Q129 84 126 74"/>
+  </g>
+  <path d="M56 70 H134" stroke="#f8f0e0" stroke-width="8"/>
+  <circle cx="83" cy="50" r="5" fill="#fff" opacity=".8"/>
+</g>
+<!-- bandeau -->
+<path d="M36 302 L84 288 V334 L36 348 L52 325 Z" fill="#8a6420" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M364 302 L316 288 V334 L364 348 L348 325 Z" fill="#8a6420" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M76 284 Q200 270 324 284 V332 Q200 318 76 332 Z" fill="url(#dd-or)" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
+<text x="200" y="321" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-weight="800" font-size="42" fill="#1a0f0a" letter-spacing="6">D<tspan fill="#8f1d16">&amp;</tspan>D</text>
+</svg>
