@@ -49,8 +49,9 @@
   <circle cx="83" cy="50" r="5" fill="#fff" opacity=".8"/>
 </g>
 <!-- bandeau -->
-<path d="M8 304 L56 290 V336 L8 350 L24 327 Z" fill="#8a6420" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
-<path d="M392 304 L344 290 V336 L392 350 L376 327 Z" fill="#8a6420" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
-<path d="M46 284 Q200 268 354 284 V332 Q200 316 46 332 Z" fill="url(#dd-or)" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
-<text x="200" y="316" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-weight="800" font-size="25" fill="#1a0f0a" textLength="280" lengthAdjust="spacingAndGlyphs">DONJONS <tspan fill="#8f1d16">&amp;</tspan> DARONS</text>
+<path d="M8 312 L56 296 V342 L8 358 L24 335 Z" fill="#8a6420" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M392 312 L344 296 V342 L392 358 L376 335 Z" fill="#8a6420" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
+<path id="dd-ruban" d="M46 290 Q200 250 354 290 V338 Q200 298 46 338 Z" fill="url(#dd-or)" stroke="#1a0f0a" stroke-width="4" stroke-linejoin="round"/>
+<path id="dd-ligne" d="M50 324 Q200 284 350 324" fill="none"/>
+<text font-family="Cinzel, Georgia, serif" font-weight="800" font-size="23" fill="#1a0f0a" letter-spacing="0.5"><textPath href="#dd-ligne" startOffset="50%" text-anchor="middle">DONJONS <tspan fill="#8f1d16">&amp;</tspan> DARONS</textPath></text>
 </svg>
