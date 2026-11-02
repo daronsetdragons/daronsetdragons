@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donjons &amp; Darons</title>
+  <meta name="description" content="Donjons & Darons, guilde Horde sur WoW Forever. Fun, mature et sympa : on recrute !">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+    A MODIFIER : les éléments marqués "À définir" plus bas.
+    - Lien d'invitation Discord : remplacer toutes les occurrences de https://discord.gg/A-DEFINIR
+    - Jours et horaires de raid : section #raids
+    - Classes recherchées : tableau de la section #recrutement (classe "ouvert", "limite" ou "ferme")
+  -->
+  <header class="nav">
+    <a class="nav__logo" href="#accueil">D&amp;D</a>
+    <nav>
+      <a href="#guilde">La guilde</a>
+      <a href="#recrutement">Recrutement</a>
+      <a href="#raids">Raids</a>
+      <a href="#reglement">Règlement</a>
+      <a href="#liens">Liens</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <p class="hero__tag">Guilde Horde · WoW Forever</p>
+      <h1>Donjons <span>&amp;</span> Darons</h1>
+      <p class="hero__lead">Fun, mature et sympa. On tombe les boss, on rigole en vocal, et on ne se prend pas la tête.</p>
+      <div class="hero__cta">
+        <a class="btn btn--main" href="https://discord.gg/A-DEFINIR">Rejoindre le Discord</a>
+        <a class="btn" href="#recrutement">Voir le recrutement</a>
+      </div>
+    </section>
+
+    <section id="guilde" class="block">
+      <h2>Qui sommes-nous ?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Des joueurs adultes</h3>
+          <p>Boulot, famille, vie à côté : on joue sérieusement sans que le jeu passe avant le reste. Personne ne vous reprochera d'aller coucher les enfants.</p>
+        </article>
+        <article class="card">
+          <h3>Une progression sans drama</h3>
+          <p>On vise le contenu de raid de Forever avec une ambiance détendue. Loot en soft-res, règles claires, et des officiers qui tranchent vite et avec le sourire.</p>
+        </article>
+        <article class="card">
+          <h3>Pour la Horde</h3>
+          <p>Du niveau 1 au niveau 60 : entraide au leveling, donjons en groupe, artisanat partagé. Les rerolls sont les bienvenus.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="recrutement" class="block block--alt">
+      <h2>Recrutement</h2>
+      <p class="intro">Le recrutement est ouvert à tous les joueurs majeurs, quel que soit leur niveau. Pour le roster de raid, voici nos besoins actuels.</p>
+      <div class="table-wrap">
+        <table class="recrut">
+          <thead><tr><th>Classe</th><th>Besoin</th></tr></thead>
+          <tbody>
+            <tr><td>Guerrier</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+            <tr><td>Druide</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+            <tr><td>Prêtre</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+            <tr><td>Chaman</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+            <tr><td>Mage</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+            <tr><td>Démoniste</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+            <tr><td>Chasseur</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+            <tr><td>Voleur</td><td><span class="tag ouvert">Ouvert</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="steps">
+        <div class="step"><span>1</span><p>Rejoignez notre Discord.</p></div>
+        <div class="step"><span>2</span><p>Présentez-vous dans <strong>#candidatures</strong> : personnage, classe, métiers et disponibilités.</p></div>
+        <div class="step"><span>3</span><p>Un officier vous invite en jeu. Vous passez deux semaines en tant que Recrue, puis vous devenez Membre.</p></div>
+      </div>
+    </section>
+
+    <section id="raids" class="block">
+      <h2>Raids</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Quand ?</h3>
+          <p><strong>À définir</strong> : jours et horaires de raid.</p>
+          <p class="muted">Inscriptions via Raid-Helper sur le Discord, au plus tard 2 h avant le pull.</p>
+        </article>
+        <article class="card">
+          <h3>Quoi ?</h3>
+          <p>Cœur du Magma et Onyxia pour commencer, puis le Repaire de l'Aile noire.</p>
+          <p class="muted">Stratégies et logs partagés sur le Discord.</p>
+        </article>
+        <article class="card">
+          <h3>Le loot</h3>
+          <p>Soft-res via softres.it : une réservation par joueur et par raid. Ce qui n'est pas réservé est attribué au /roll.</p>
+          <p class="muted">Simple et transparent : pas de points à tenir, pas de drama.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reglement" class="block block--alt">
+      <h2>Règlement</h2>
+      <ol class="rules">
+        <li><strong>Respect avant tout.</strong> Pas d'insulte, de racisme ou de harcèlement, ni en guilde ni en public.</li>
+        <li><strong>On reste fun.</strong> Le chambrage est bienvenu, la méchanceté non.</li>
+        <li><strong>Présent, c'est présent.</strong> Inscrit à un raid, on vient à l'heure, préparé (consos, réparations). Un empêchement ? On prévient dans #absences.</li>
+        <li><strong>Le loot ne se discute pas en raid.</strong> En cas de souci, on en parle à un officier après.</li>
+        <li><strong>L'entraide fait la guilde.</strong> Un coup de main pour un donjon, une quête ou un craft vaut de l'or.</li>
+        <li><strong>On représente la guilde.</strong> Notre réputation sur le serveur, c'est chacun de nous.</li>
+      </ol>
+    </section>
+
+    <section id="liens" class="block">
+      <h2>Liens utiles</h2>
+      <div class="links">
+        <a class="link" href="https://discord.gg/A-DEFINIR"><strong>Discord</strong><span>Le QG de la guilde</span></a>
+        <a class="link" href="https://raid-helper.dev/"><strong>Raid-Helper</strong><span>Calendrier des raids</span></a>
+        <a class="link" href="https://softres.it/"><strong>softres.it</strong><span>Réserver son loot</span></a>
+        <a class="link" href="https://www.warcraftlogs.com/"><strong>Warcraft Logs</strong><span>Analyser nos raids</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Donjons &amp; Darons · Guilde Horde sur WoW Forever</p>
+    <p class="muted">Site de fans, non affilié à Blizzard Entertainment. World of Warcraft est une marque de Blizzard Entertainment.</p>
+  </footer>
+</body>
+</html>
