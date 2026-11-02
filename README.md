@@ -8,6 +8,6 @@ C'est une seule page statique (`index.html` + `style.css`) publiée gratuitement
 
 Tout se modifie directement sur GitHub : ouvrir `index.html`, cliquer sur le crayon, modifier, puis « Commit changes ». Le site se met à jour en une minute environ.
 
-- **Lien Discord** : remplacer `https://discord.gg/A-DEFINIR` (il apparaît deux fois).
+- **Lien Discord** : `https://discord.gg/vewHzCYNx`, présent deux fois dans `index.html` (bouton de l'accueil et section Liens).
 - **Classes recherchées** : dans le tableau de la section `recrutement`, changer la classe et le texte du badge : `ouvert` / `Ouvert`, `limite` / `Limité`, `ferme` / `Fermé`.
 - **Horaires de raid** : section `raids`, carte « Quand ? ».
