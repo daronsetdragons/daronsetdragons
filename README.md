@@ -10,5 +10,5 @@ Tout se modifie directement sur GitHub : ouvrir `index.html`, cliquer sur le cra
 
 - **Lien Discord** : `https://discord.gg/vewHzCYNx`, présent deux fois dans `index.html` (bouton de l'accueil et section Liens).
 - **Classes recherchées** : dans le tableau de la section `recrutement`, changer la classe et le texte du badge : `ouvert` / `Ouvert`, `limite` / `Limité`, `ferme` / `Fermé`.
-- **Logo** : `img/logo.svg` (source vectorielle, intégrée directement dans `index.html`), `img/logo-512.png` (icône Discord) et `img/favicon.png`.
+- **Logo** : `img/logo.webp` et `img/logo.png` (bannière, 800 px), `img/logo-512.png` (icône Discord) et `img/favicon.png`.
 - **Horaires de raid** : section `raids`, carte « Quand ? ».
