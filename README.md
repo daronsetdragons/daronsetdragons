@@ -1,6 +1,6 @@
-# Donjons & Darons
+# Darons & Dragons
 
-Site vitrine de la guilde Horde **Donjons & Darons** sur WoW Forever.
+Site vitrine de la guilde Horde **Darons & Dragons** sur WoW Forever.
 
 C'est une seule page statique (`index.html` + `style.css`) publiée gratuitement avec GitHub Pages depuis la branche `main`.
 
